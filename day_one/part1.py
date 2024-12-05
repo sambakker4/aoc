@@ -12,7 +12,7 @@ def get_lists(filename):
             list2.append(num2)
     return list1, list2
 
-if __name__ == "part1.py":
+if __name__ == "__main__":
     list1, list2 = get_lists("input.txt")
     list1.sort()
     list2.sort()
